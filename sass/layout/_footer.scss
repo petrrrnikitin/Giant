@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: $color-black-medium;
+  justify-content: center;
+  align-items: center;
+  &__icons {
+    color: $color-white;
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+
+    margin: 0 auto;
+  }
+  &__text {
+    padding-top: 3rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,99 @@
+.card-prices {
+  background-color: $color-grey;
+  box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1);
+  &:hover {
+    background-color: $color-white;
+  }
+  &:hover .card-prices__price {
+    background-image: linear-gradient(to top, #fd712c, #f21780);
+  }
+  &:hover .button--hover-gradient {
+    background-image: linear-gradient(to top, #fd712c, #f21780);
+  }
+
+  &__header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.8rem;
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+
+  &__price {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: $color-white;
+    font-family: Dosis;
+    font-size: 48px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    clip-path: polygon(0 0, 100% 0, 100% 6rem, 50% 100%, 0 6rem);
+
+    sub {
+      font-size: 18px;
+      bottom: 0;
+    }
+
+    sup {
+      top: -2rem;
+      font-size: 18px;
+    }
+
+  }
+
+  &__list {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.14;
+      letter-spacing: normal;
+      text-align: center;
+      color: #777777;
+
+      &:not(:last-child) {
+        padding-bottom: 1rem;
+        width: 75%;
+        margin-bottom: 1rem;
+        border-bottom: solid 1px #eeeeee;
+      }
+    }
+  }
+
+  &__footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    span {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: center;
+      color: #aaaaaa;
+      padding-bottom: 1.5rem;
+    }
+  }
+}

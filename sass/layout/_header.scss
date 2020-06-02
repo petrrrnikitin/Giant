@@ -1,0 +1,64 @@
+.header {
+  height: 80rem;
+  background-image: url(../img/iPhones.png), linear-gradient(
+                  to right,
+                  rgba($color-orange, 0.8),
+                  rgba($color-pink-1, 0.8)
+  );
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 3rem;
+
+  &__text-box{
+    color: $color-white;
+    margin-top: 15rem;
+  }
+}
+.navbar-brand h3 {
+  font-family: Dosis;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+}
+
+.navbar-nav {
+  align-items: center;
+
+  .nav-item {
+    &:not(:last-child) {
+      margin-right: 4.2rem;
+    }
+
+    &:last-child a {
+      background-color: #fff;
+      border-radius: 17.5px;
+      color: $color-black-medium;
+      padding: 6px 30px;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: center;
+    }
+
+    .nav-link  {
+      color: $color-white;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: right;
+      display: flex;
+
+    }
+  }
+}

@@ -1,0 +1,558 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Dosis:100,300,400,500,700,900");
+html {
+  font-size: 62.5%; }
+
+.heading-primary {
+  margin-bottom: 2.4rem; }
+  .heading-primary--main {
+    font-family: Dosis;
+    font-size: 54px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 2.3rem; }
+  .heading-primary--sub {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left; }
+
+.heading-secondary--main {
+  font-family: Dosis;
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 2.4rem; }
+
+.heading-secondary--sub {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #777777; }
+
+.heading-tertiary {
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph:not(:last-child) {
+  margin-bottom: 3rem; }
+
+.font-normal {
+  font-size: 1.6rem; }
+
+.text-list__item--text {
+  margin-left: 2rem;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left; }
+
+.text-list__item--white {
+  color: #ffffff; }
+
+.text-list__item--black {
+  color: #000000; }
+
+.button {
+  margin-top: 4rem; }
+  .button:link, .button:visited {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.6rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1); }
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  .button--white {
+    background-color: #ffffff; }
+  .button--hover-gradient {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 0 auto; }
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem; }
+  .feature-item__text {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%; }
+    .feature-item__text--main {
+      font-family: Dosis;
+      font-size: 24px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222; }
+    .feature-item__text--sub {
+      padding-top: 2rem;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #777777; }
+  .feature-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border: solid 1px #eeeeee;
+    background-color: #ffffff;
+    border-radius: 9999px; }
+    .feature-item__icon i {
+      color: #f31f79;
+      font-size: 1.6rem; }
+
+.screenshots {
+  position: relative;
+  height: 50rem;
+  padding-bottom: 12rem; }
+  .screenshots .fa-arrow-left {
+    position: absolute;
+    top: 50%;
+    left: -5rem;
+    box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+    color: #777777;
+    border-radius: 9999px;
+    background-color: #ffffff;
+    padding: 17px; }
+  .screenshots .fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    right: -5rem;
+    box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid 3px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to top, #fd712c, #f21780);
+    border-radius: 9999px;
+    padding: 17px; }
+  .screenshots__photo {
+    position: absolute; }
+    .screenshots__photo--p0 {
+      left: 50%;
+      transform: translate(-50%);
+      width: 36rem;
+      height: 50rem;
+      z-index: 40; }
+    .screenshots__photo--p1 {
+      right: 195px;
+      width: 26rem;
+      height: 44rem;
+      margin-top: 3rem;
+      z-index: 30; }
+    .screenshots__photo--p2 {
+      right: 68px;
+      width: 26rem;
+      height: 36rem;
+      margin-top: 7rem;
+      z-index: 20; }
+    .screenshots__photo--p3 {
+      right: 0;
+      width: 26rem;
+      height: 28rem;
+      margin-top: 11rem;
+      z-index: 10; }
+    .screenshots__photo--p4 {
+      left: 0;
+      width: 26rem;
+      height: 28rem;
+      margin-top: 11rem;
+      z-index: 10; }
+    .screenshots__photo--p5 {
+      left: 68px;
+      width: 26rem;
+      height: 36rem;
+      margin-top: 7rem;
+      z-index: 20; }
+    .screenshots__photo--p6 {
+      left: 195px;
+      width: 26rem;
+      height: 44rem;
+      margin-top: 3rem;
+      z-index: 30; }
+
+.card-prices {
+  background-color: #f7fafc;
+  box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1); }
+  .card-prices:hover {
+    background-color: #ffffff; }
+  .card-prices:hover .card-prices__price {
+    background-image: linear-gradient(to top, #fd712c, #f21780); }
+  .card-prices:hover .button--hover-gradient {
+    background-image: linear-gradient(to top, #fd712c, #f21780); }
+  .card-prices__header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.8rem;
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333; }
+  .card-prices__price {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+    font-family: Dosis;
+    font-size: 48px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    clip-path: polygon(0 0, 100% 0, 100% 6rem, 50% 100%, 0 6rem); }
+    .card-prices__price sub {
+      font-size: 18px;
+      bottom: 0; }
+    .card-prices__price sup {
+      top: -2rem;
+      font-size: 18px; }
+  .card-prices__list {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .card-prices__list span {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.14;
+      letter-spacing: normal;
+      text-align: center;
+      color: #777777; }
+      .card-prices__list span:not(:last-child) {
+        padding-bottom: 1rem;
+        width: 75%;
+        margin-bottom: 1rem;
+        border-bottom: solid 1px #eeeeee; }
+  .card-prices__footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem; }
+    .card-prices__footer span {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: center;
+      color: #aaaaaa;
+      padding-bottom: 1.5rem; }
+
+.customer-review {
+  background-color: #f7fafc;
+  padding: 4rem; }
+  .customer-review__review {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #777777; }
+  .customer-review__info {
+    padding-left: 2rem; }
+    .customer-review__info--name {
+      font-family: Dosis;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222; }
+    .customer-review__info--company {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #777777; }
+  .customer-review__customer {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center; }
+
+.download-link {
+  display: flex;
+  border-radius: 3px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+  height: 12rem; }
+  .download-link__img {
+    width: 30%;
+    border-radius: 3px;
+    background-color: #f7fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .download-link__company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem; }
+    .download-link__company-info--text {
+      font-family: Dosis;
+      font-size: 30px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.8;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+      padding-bottom: 1.5rem; }
+    .download-link__company-info--descr {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #777777; }
+
+.header {
+  height: 80rem;
+  background-image: url(../img/iPhones.png), linear-gradient(to right, rgba(253, 113, 44, 0.8), rgba(242, 23, 128, 0.8));
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 3rem; }
+  .header__text-box {
+    color: #ffffff;
+    margin-top: 15rem; }
+
+.navbar-brand h3 {
+  font-family: Dosis;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal; }
+
+.navbar-nav {
+  align-items: center; }
+  .navbar-nav .nav-item:not(:last-child) {
+    margin-right: 4.2rem; }
+  .navbar-nav .nav-item:last-child a {
+    background-color: #fff;
+    border-radius: 17.5px;
+    color: #222222;
+    padding: 6px 30px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center; }
+  .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: right;
+    display: flex; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #222222;
+  justify-content: center;
+  align-items: center; }
+  .footer__icons {
+    color: #ffffff;
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    margin: 0 auto; }
+  .footer__text {
+    padding-top: 3rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; }
+
+.section-features {
+  padding-top: 12rem;
+  background-color: #ffffff; }
+  .section-features .features-list .container {
+    padding-bottom: 8rem;
+    border-bottom: 2px solid #eeeeee; }
+  .section-features .feature-text {
+    background-image: url(../img/iPhone.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 17.5rem;
+    padding-bottom: 18rem; }
+    .section-features .feature-text__descr {
+      padding-top: 8rem;
+      padding-bottom: 4rem;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #777777; }
+
+.section-screenshots {
+  background-color: #f7fafc; }
+  .section-screenshots__text {
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    width: 60%;
+    margin: 0 auto; }
+
+.section-prices {
+  margin-bottom: 12rem; }
+  .section-prices__text {
+    padding-top: 12rem;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 8rem; }
+
+.section-video {
+  position: relative;
+  background-image: url(../img/video.png);
+  background-position: center 0;
+  min-height: 40rem; }
+  .section-video i {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    color: #ffffff;
+    padding: 25px;
+    background-image: linear-gradient(to top, #fd712c, #f21780);
+    border-radius: 9999px; }
+  .section-video .primary-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.section-reviews {
+  background-color: #ffffff;
+  margin-bottom: 12rem; }
+  .section-reviews .container .row {
+    position: relative; }
+    .section-reviews .container .row .fa-arrow-left {
+      position: absolute;
+      top: 50%;
+      left: -5rem;
+      box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+      color: #777777;
+      border-radius: 9999px;
+      background-color: #ffffff;
+      padding: 17px; }
+    .section-reviews .container .row .fa-arrow-right {
+      position: absolute;
+      top: 50%;
+      right: -5rem;
+      box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+      border: solid 3px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(to top, #fd712c, #f21780);
+      border-radius: 9999px;
+      padding: 17px; }
+  .section-reviews__text {
+    padding-top: 12rem;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 8rem; }
+
+.section-download {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-image: linear-gradient(to right, rgba(253, 113, 44, 0.8), rgba(242, 23, 128, 0.8)); }
+  .section-download__text {
+    font-family: Dosis;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 8rem; }

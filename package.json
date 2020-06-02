@@ -1,0 +1,16 @@
+{
+  "name": "giant",
+  "version": "1.0.0",
+  "description": "Giant landing page",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:bs": "node-sass sass/vendors/bootstrap.scss css/bootstrap.css -w"
+  },
+  "author": "Petr Nikitin",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1"
+  }
+}

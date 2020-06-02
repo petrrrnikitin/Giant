@@ -1,0 +1,48 @@
+.customer-review {
+  background-color: #f7fafc;
+  padding: 4rem;
+
+  &__review {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #777777;
+  }
+  &__info {
+    padding-left: 2rem;
+    &--name {
+      font-family: Dosis;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+    }
+    &--company {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #777777;
+    }
+  }
+
+  &__customer {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+
+  }
+}

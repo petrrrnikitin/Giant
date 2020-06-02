@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Dosis:100,300,400,500,700,900');
+
+
+
+.heading-primary {
+  margin-bottom: 2.4rem;
+  &--main {
+    font-family: Dosis;
+    font-size: 54px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 2.3rem;
+  }
+  &--sub {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+  }
+}
+
+.heading-secondary {
+
+  &--main {
+    font-family: Dosis;
+    font-size: 36px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: $color-black;
+    margin-bottom: 2.4rem;
+  }
+  &--sub {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #777777;
+  }
+
+}
+
+.heading-tertiary {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.paragraph {
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
